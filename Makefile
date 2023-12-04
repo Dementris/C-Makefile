@@ -16,6 +16,6 @@ calculator_lib.a: calculator.o
 	ar -rcs calculator_lib.a calculator.o
 
 clean:
-	rm -f *.o *.so calculator
+	rm -f *.o *.a calculator
 
 
